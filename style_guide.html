@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>CASA</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!-- Google font - Dosis -->
+    	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<h1>Style Guide</h1>
+			<nav>
+        		<ul class="nav_main">
+       		    <div id="logo">
+         	  		<li><a href="home.html"><img src=img/casa_logo.png alt="CASA"></a></li>
+         		</div>
+          		<li><a href="about.html">About</a></li>
+          		<li><a href="products.html">Products</a></li>
+          		<li><a href="contact.html">Contact</a></li>
+        		</ul>
+      		</nav>
+		</header>
+	</body>
+
+	<!-- Interactive Elements Section -->
+	<section id="interactive_elements">
+		<h2>Interactive Elements</h2>
+		<!-- In-text link -->
+		<section class="element">
+			<h3>In-text link</h3>
+			<h4>CSS selector:</h4>
+			<p>.in_text_link</p>
+			<h4>Sample code:</h4>
+				<code>&lt;p&gt;Feel free to &lt;a href="contact.html"&gt;contact us.&lt;/a&gt;&lt;/p&gt;</code>
+			<h4>Rendered element:</h4>	
+				<p>Feel free to <a href="contact.html">contact us</a>.</p>
+		</section>
+
+		<!-- Navigation Link -->
+		<section class="element">
+			<h3>Navigation Link</h3>
+			<h4>CSS selector:</h4>
+			<p>.navigation_link</p>
+			<h4>Sample code:</h4>
+				<code>&lt;a href="about.html"&gt;About&lt;/a&gt;</code>
+			<h4>Rendered element:</h4>
+				<a class="navigation_link" href="about.html">About</a>
+		</section>
+
+		<!-- Reset Buttons -->
+		<section class="element">
+			<h3>Submit/Reset Buttons</h3>	
+			<h4>CSS selector:</h4>
+				<p>.submit__button_link</p>
+          		<p>.reset__button_link</p>
+
+          	<h4>Sample code:</h4>
+          		<code><span>&lt;a href="#" class="button"&gt;Submit&lt;/a&gt;</span></code>
+         		<code>&lt;a href="#" class="button"&gt;Reset&lt;/a&gt;</code>
+
+       		 <h4>Rendered element:</h4>
+          		<a class="submit__button_link" href="#">Sumbit</a>
+         		<a class="reset__button_link" href="#">Reset</a>	
+		</section>
+
+		<!-- Text Input Field with Label -->
+		<section class="element">
+        	<h3>Text Input Field with Label</h3>
+        	<h4>CSS selector:</h4>
+          		<p>.text_input_label</p>
+
+       		<h4>Sample code:</h4>
+          		<code><span>&lt;label for="form_namefield"&gt;Name:&lt;/label&gt;</span>
+                <span>&lt;input type="text" id="form_namefield" placeholder="Name"&gt;</span></code>
+
+        	<h4>Rendered element:</h4>
+          		<label for="form_namefield">Name:</label><br>
+          		<input type="text" id="form_namefield" placeholder="Text Input">
+        </section>
+
+        <!-- Radio Button with Label -->
+        <section class="element">
+        	<h3>Radio Button with Label</h3>
+        	<h4>CSS selector:</h4>
+        		<p>.radio_button_label</p>
+
+        	<h4>Sample code:</h4>
+          		<code><span>&lt;label for="form_gender"&gt;Gender&lt;/label&gt;</span>
+                <span>&lt;input type="radio" name="form_gender" value="male"&gt;</span></code>
+
+        	<h4>Rendered element:</h4>
+         		<label for="form_gender">Gender</label><br>
+          		<input type="radio" name="form_gender" value="male">Male
+        </section>
+
+        <!-- Image as a Link -->
+        <section class="element">
+        	<h3>Image as a Link</h3>
+        	<h4>CSS selector:</h4>
+          		<p>.image_link</p>
+
+        	<h4>Sample code:</h4>
+          		<code>&lt;a href="https://store.google.com/product/google_home_mini" target="_blank"&gt; &lt;img src="img/google_home_mini.jpg" alt="Google Home Mini"&gt; &lt;/a&gt;</code>
+
+        	<div class="image_link">
+        		<h4>Rendered element:</h4>
+          		<a href="https://store.google.com/product/google_home_mini" target="_blank"> <img src="img/google_home_mini.jpg" alt="Google Home Mini"></a>
+       		</div>
+      </section>
+	</section>
+
+	<!-- TEXT ELEMENTS SECTION -->
+	<section id="text_elements">
+		<h2>Text Elements</h2>
+
+		<!-- Headings -->
+		<section class="element">
+			<h3>Headings</h3>
+			<h4>CSS selecotr:</h4>
+				<p>.h1 .h2 .h3 .h4</p>
+				<h4>Sample code:</h4>
+					<code><span>&lt;h1&gt;CASA&lt;/h1&gt;</span>
+		                <span>&lt;h2&gt;Smart home product&lt;/h2&gt;</span>
+                  		<span>&lt;h3&gt;Creat a connected home&lt;/h3&gt;</span>
+                  		<span>&lt;h4&gt;Safe, Smart & Easy&lt;/h4&gt;</span></code>
+
+        	<h4>Rendered element:</h4>
+          		<h1>CASA</h1>
+          		<h2>Smart home product</h2>
+          		<h3>Creat a connected home</h3>
+          		<h4>Safe, Smart & Easy</h4>
+		</section>
+
+		<!-- Paragraphs -->
+		<section class="element">
+        	<h3>Paragraphs</h3>
+        	<h4>CSS selector:</h4>
+          	<p>.parag</p>
+
+        	<h4>Sample code:</h4>
+          		<code>&lt;p&gt;Small, simple, and powerful. Say hello to Google Home Mini. This helpful voice-activated smart home speaker is powered by Google Assistant, giving you hands-free control of your smart home,
+           	including Nest, Philips Hue, Belkin, and WeMo devices. Ask the Mini questions, tell it do things, and get answers from Google using only your voice.&lt;/p&gt;</code>
+
+        	<h4>Rendered element:</h4>
+          		<p>Small, simple, and powerful. Say hello to Google Home Mini. This helpful voice-activated smart home speaker is powered by Google Assistant, giving you hands-free control of your smart home,
+            including Nest, Philips Hue, Belkin, and WeMo devices. Ask the Mini questions, tell it do things, and get answers from Google using only your voice.</p>
+      	</section>
+
+      	<!-- Numbered Lists -->
+      	<section class="element">
+        	<h3>Numbered Lists</h3>
+        	<h4>CSS selector:</h4>
+        	<p>.numbered lists</p>
+
+        	<h4>Sample code:</h4>
+        	<code><span>&lt;ul class="bulletlist"&gt;&lt;li&gt;Safe&lt;/li&gt;</span></code>
+
+        	<h4>Rendered element:</h4>
+          		<ul class="bulletlist">
+            	<li>Safe</li>
+            	<li>Smart</li>
+            	<li>Easy</li>
+          	</ul>
+      	</section>
+	</section>
+
+	<!-- COMBINED ELEMENTS SECTION -->
+	<section id="combined_elements">
+		<h2>Combined Elements</h2>
+		<!-- Main Navigation -->
+		<section class="element">
+       		<h3>Main Navigation</h3>
+        	<h4>CSS selector:</h4>
+          		<p>.nav_main</p>
+
+        	<h4>Sample code:</h4>
+
+       		<h4>Renedered element:</h4>
+          	<nav class="nav_main">
+              	<a href="#About">About Us</a>
+              	<a href="#product">Product</a>
+              	<a href="#checkout">Check Out</a>
+          	</nav>
+    	</section>
+
+    	<!-- Service Listing -->
+    	<section class="element">
+    		<h3>Product/Service Listing</h3>
+        	<h4>CSS selector:</h4>
+         	 <p>.product_listing</p>
+
+        	<h4>Sample code:</h4>
+       		 <code><span>&lt;div class="product_listing"&gt;</span>
+          <span>&lt;img src="img/google_home_mini.jpg" alt="Google Home Mini"&gt;</span>
+          <span>&lt;h2 class="product_name"&gt;Google Home Mini&lt;/h2&gt;</span>
+          <span>&lt;h3 class="product_name"&gt;$79&lt;/h3&gt;</span></code>
+
+        	<h4>Rendered element</h4>
+          	<div class="product_listing">
+            	<img src="img/google_home_mini.jpg" alt="Google Home Mini">
+            	<h2 class="product_name">Google Home Mini</h2>
+           		<h3 class="product_name">$79</h3>
+          	</div>
+
+          	<div class="product_listing">
+            	<img src="img/nest_cam_iq_outdoor.jpg" alt="Nest Cam IQ Outdoor">
+            	<h2 class="product_name">Nest Cam IQ Outdoor</h2>
+            	<h3 class="product_name">$429</h3>
+          	</div>
+
+          	<div class="product_listing">
+            	<img src="img/chromecast_ultra.jpg" alt="Chromecast Ultra">
+            	<h2 class="product_name">Chromecast Ultra</h2>
+            	<h3 class="product_name">$90</h3>
+          	</div>
+   		</section>
+
+   		<!-- Payment Form -->
+   		<section class="element">
+        	<h3>Payment Form</h3>
+        	<h4>CSS selector:</h4>
+          	<p>.payment_form<br> #form_cardnumberfield<br> #form_expiryfield<br> .card</p>
+
+        <h4>Sample code:</h4>
+          <code><span>&lt;div class="payment_form"&gt;</span>
+            <span>&lt;label for="form_namefield"&gt;Name:&lt;/label&gt;</span>
+            <span>&lt;input type="text" id="form_namefield" placeholder="Name"&gt;</span>
+            <span>&lt;input type="radio" id="visa" name="visa_paytype" value="visa"&gt;</span>
+            <span>&lt;label for="visa"&gt;Vise&lt;/label&gt;</span>
+            <span>&lt;input type="radio" id="master" name="master_paytype" value="master"&gt;</span>
+            <span>&lt;label for="master"&gt;Mastercard&lt;/label&gt;</span>
+            <span>&lt;label class="card"&gt;Card number:&lt;/label&gt;</span>
+            <span>&lt;input type="number" id="form_cardnumberfield" placeholder="0000 0000 0000 0000"&gt;</span>
+            <span>&lt;a class="submit__button_link" href="#"&gt;Sumbit&lt;/a&gt;</span></code>
+
+        <h4>Rendered element</h4>
+          <h2>Cart Items</h2>
+          <div class="payment_form">
+            <label for="namefield">Name:</label><br>
+            <input type="text" id="form_namefield" placeholder="Name"><br>
+
+            <input type="radio" id="visa" name="visa_paytype" value="visa">
+            <label for="visa">Visa</label>
+
+            <input type="radio" id="master" name="master_paytype" value="master">
+            <label for="master">Mastercard</label>
+
+            <label class="card">Card number:</label>
+            <input type="number" id="form_cardnumberfield" placeholder="0000 0000 0000 0000">
+
+            <label class="card">Expiry date:</label>
+            <input type="number" id="form_expiryfield" placeholder="MM/YYYY">
+            <a class="submit__button_link" href="#">Sumbit</a>
+          </div>
+      	</section>
+
+      	<!-- Checkout Cart -->
+      	<section class="element">
+        	<h3>Checkout Cart</h3>
+        	<h4>CSS selector:</h4>
+        	  <p>.checkout<p>
+
+        <h4>Sample code:</h4>
+
+        <h4>Rendered element:</h4>
+        <h2>Nest Cam IQ outdoor</h2>
+        <h3>$429</h3>
+        <h3>Quantity: 1</h3>
+        <img src="img/nest_cam_iq_outdoor.jpg" alt="nest_cam_iq_outdoor">
+
+        <h2>Google Home Mini</h2>
+        <h3>$79</h3>
+        <h3>Quantity: 2</h3>
+        <img src="img/google_home_mini.jpg" alt="google_home_mini">
+
+        <h3> Total: $587</h3>
+      </section>
+	</section>
+</body>	

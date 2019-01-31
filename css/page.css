@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*.element {
+  border-top-color: #A0755F;
+}*/
+
+#casa h1{
+  text-align: center;
+  font-size: 4rem;
+  margin: 0em;
+}
+
+
+
+/* products item */
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item{
+  padding: 2em;
+  background: #FBF8ED;
+  border: #FCE6BF;
+  border-radius: 0.8em;
+  margin: 1em;
+}
+
+.item_image{
+  display: block;
+  width: 350px;
+  height: 350px;
+  border-radius: 0.8em;
+}
+
+/* text over image when hover reference */
+/* http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/ */
+.learn_more{
+  position: absolute;
+  opacity: 0;
+  transform: translate(100%, -450%);
+  transition: .2s;
+}
+
+.more:hover .item_image{
+  opacity: 0.5;
+}
+
+.more:hover .learn_more{
+  opacity: 1;
+}
+
+.more_text{
+  background: #A0755F;
+  color: #FCE6BF;
+  padding: .6em 1em;
+  border-radius: 0.8em;
+}
+
+.product_name{
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.product_price{
+  margin-top: 0.3rem;
+  text-align: center;
+}
+
+.quantity{
+  text-align: center;
+  padding: 0.8rem;
+}
+
+.element .total_price{
+  padding: 2em;
+  font-size: 20px;
+}
+
+.total_price p{
+  padding: 0.5rem;
+}
+
+.make_payment h2{
+  padding: 1rem;
+}
+
+.payment_form{
+  padding-left: 1.2rem;
+}

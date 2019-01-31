@@ -1,0 +1,296 @@
+/*body{
+	font-family: "GT Walsheim",sans-serif;
+	padding: 2rem;
+	background-color: rgb(240,240,240);
+	color: rgb(98,98,98);
+}
+
+section{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#interactive_elements h2{
+  margin-top: 6rem;
+}
+
+/*Top Main Navigation*/
+#logo img{
+	float: left;
+	height: 50px;
+}
+
+.nav_main{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+
+.nav_main ul{
+  list-style-type: none;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_main a{
+  display: block;
+  float: left;
+  padding: 1em;
+  color: rgb(232,158,111);
+  text-decoration: none;
+}
+
+.nav_main a:hover, a:focus{
+  display: block;
+  color: rgb(127,88,62);
+  text-decoration: none;
+}
+
+/*a{
+  color: rgb(232,158,111);
+  transition: color 0.5s;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Dosis', sans-serif;
+  color: rgb(204,119,63);
+}
+
+p {
+  margin-top: 0;
+  max-width: 60rem;
+  color: rgb(131, 125, 121);
+}*/
+
+body {
+  font-family: "GT Walsheim",sans-serif;
+  padding: 2rem;
+  background-color: rgb(240,240,240);
+  color: rgb(98,98,98);
+}
+
+.element {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+section{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#interactive_elements h2{
+  margin-top: 6rem;
+}
+
+a{
+  color: rgb(232,158,111);
+  transition: color 0.5s;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+a:active, a:hover, a:focus{
+  color: rgb(127,88,62);
+  text-decoration: none;
+}
+
+a img:hover, a img:active{
+  opacity: 0.5;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Dosis', sans-serif;
+  color: rgb(204,119,63);
+}
+
+/* h2 {
+  margin-top: 6rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  display: block;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+} */
+
+p {
+  margin-top: 0;
+  max-width: 60rem;
+  color: rgb(131, 125, 121);
+}
+
+code {
+  background-color: rgb(252,230,191);
+  color: rgb(131, 125, 121);
+  padding: 0.5rem;
+  display: block;
+}
+
+code span
+{
+    display: block;
+}
+
+label{
+  color: rgb(131,125,121);
+}
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.submit__button_link {
+  display: inline-block;
+  padding: 1.2rem;
+  border-radius: 0.8em;
+  color: white;
+  background-color: rgb(127,88,62);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.submit__button_link:hover, .submit__button_link:focus {
+  background-color: rgb(160,120,100);
+}
+
+.reset__button_link {
+  display: inline-block;
+  padding: 1.2rem;
+  border-radius: 0.8em;
+  color: white;
+  background-color: rgb(127,88,62);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.reset__button_link:hover, .reset__button_link:focus {
+  background-color: rgb(160,120,100);
+}
+
+input[type=text] {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type=text]:focus, input[type=text]:hover {
+    border-color:rgb(127,88,62);
+}
+
+input[type=radio] {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.bulletlist{
+  display: block;
+  padding: 1.2em;
+  list-style: circle;
+  color: rgb(131,125,121);
+}
+
+.bulletlist li{
+  padding: 1.5rem;
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+.element {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+#interactive_elements{
+  margin: 0.5rem;
+}
+
+/* product listing */
+.product_listing{
+  overflow: hidden;
+  display: inline-block;
+}
+
+.product_listing img{
+  height: 300px;
+  /* weight: 400px; */
+  margin: 1.2rem;
+  border-radius: 0.8em;
+}
+
+.product_listing img:hover, img:active{
+  opacity: 0.5;
+}
+
+.product_name{
+  text-align: center;
+}
+
+/* payment form */
+.card{
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#form_cardnumberfield{
+  padding: 1em;
+}
+
+#form_expiryfield{
+  padding: 1em;
+}
+
+input[type=number] {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+}
+
+input[type=number]:focus, input[type=number]:hover {
+    border-color:rgb(127,88,62);
+}
+
+.submit__button_link{
+  margin-top: 1em;
+}
