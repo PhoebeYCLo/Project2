@@ -1,80 +1,41 @@
-/*body{
-	font-family: "GT Walsheim",sans-serif;
-	padding: 2rem;
-	background-color: rgb(240,240,240);
-	color: rgb(98,98,98);
-}
-
-section{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-#interactive_elements h2{
-  margin-top: 6rem;
+* {
+  font-family: "GT Walsheim",sans-serif;
 }
 
 /*Top Main Navigation*/
 #logo img{
 	float: left;
 	height: 50px;
-}
-
-.nav_main{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  justify-content: center;
+	padding-top: 0.5rem;
+	padding-left: 2.5rem;
+	position: absolute;
+	margin: 0.8 3.5rem;
 }
 
 
-.nav_main ul{
-  list-style-type: none;
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
+.menu li{
+	list-style-type: none;
+	font-size: 1.2em;
+	margin: auto 0.4rem;
 }
 
-.nav_main a{
-  display: block;
-  float: left;
-  padding: 1em;
-  color: rgb(232,158,111);
-  text-decoration: none;
+.menu a{
+	display: block;
+	float: right;
+	padding-top: 0.8em;
+	padding-right: 1.5em;
+	padding-left: 1.5rm;
+	text-decoration: none;
+	color: #CC773F;
+	letter-spacing: 0.05em;
 }
 
-.nav_main a:hover, a:focus{
-  display: block;
-  color: rgb(127,88,62);
-  text-decoration: none;
+.menu li a:hover, a:focus{
+	display: block;
+	color: #7F583E;
+	text-decoration: none;
 }
 
-/*a{
-  color: rgb(232,158,111);
-  transition: color 0.5s;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-h1,h2,h3,h4{
-  font-family: 'Dosis', sans-serif;
-  color: rgb(204,119,63);
-}
-
-p {
-  margin-top: 0;
-  max-width: 60rem;
-  color: rgb(131, 125, 121);
-}*/
-
-body {
-  font-family: "GT Walsheim",sans-serif;
-  padding: 2rem;
-  background-color: rgb(240,240,240);
-  color: rgb(98,98,98);
-}
 
 .element {
   padding-top: 1.5rem;
@@ -97,7 +58,7 @@ a{
   color: rgb(232,158,111);
   transition: color 0.5s;
   text-decoration: none;
-  font-weight: bold;
+/*  font-weight: bold;*/
   font-size: 1.1em;
 }
 
@@ -115,22 +76,9 @@ h1,h2,h3,h4{
   color: rgb(204,119,63);
 }
 
-/* h2 {
-  margin-top: 6rem;
-}
-
-h3 {
-  margin-top: 1rem;
-  display: block;
-}
-
-h4 {
-  margin-bottom: 0.25rem;
-} */
-
 p {
   margin-top: 0;
-  max-width: 60rem;
+/*  max-width: 60rem;*/
   color: rgb(131, 125, 121);
 }
 
@@ -149,6 +97,52 @@ code span
 label{
   color: rgb(131,125,121);
 }
+
+.top_img{
+	background: url("../img/top_image.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+
+.intro{
+	margin: 5rem;
+}
+
+.intro_text{
+	display: flex;
+	flex-flow: wrap;
+	margin: 4rem;
+	align-self: center;
+	justify-content: center;
+}
+
+.intro_header{
+	text-align: center;
+	margin-top: 3rem;
+}
+
+/*style for contact form*/
+#form_element{
+	margin: 1rem;
+}
+
+#form_contact input[type=text], #form_contact input[type=email]{
+  width: 60%;
+}
+
+#form_contact textarea {
+  width: 60%;
+  padding:0.4rem 0.5rem;
+  margin-right: 0;
+  box-sizing: border-box;
+  border: 0.05rem solid rgb(90,90,90);
+  outline: none;
+  resize: none;
+}
+
+
 
 /*
   INTERACTIVE ELEMENTS -------------------
@@ -248,7 +242,6 @@ input[type=radio] {
 
 .product_listing img{
   height: 300px;
-  /* weight: 400px; */
   margin: 1.2rem;
   border-radius: 0.8em;
 }
